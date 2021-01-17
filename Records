@@ -1,0 +1,19 @@
+ RECORD TcourseRec
+   DECLARE Name : String
+   DECLARE Marks : Integer
+   DECLARE subjects : String
+End RECORD
+DECLARE STD(5) : TcourseRec
+For x = 1 To 5
+   OUTPUT("Student's name: ")
+   INPUT STD(x).Name 
+   OUTPUT("Subject selected: ")
+   INPUT STD(x).subjects 
+   OUTPUT("Marks obtained: ")
+   INPUT STD(x).Marks 
+Next
+For x = 1 To 5
+   OUTPUT(STD(x).Name)
+   OUTPUT(STD(x).subjects)
+   OUTPUT(STD(x).Marks)
+Next
