@@ -1,3 +1,4 @@
+#Updated
 #It takes student name and marks and how many students are there, then it output's Average, highest marks with student name and lowest marks
 limit = int(input("How many students in class: "))
 stdname = [""]*limit
