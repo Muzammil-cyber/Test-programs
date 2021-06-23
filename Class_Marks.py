@@ -21,4 +21,4 @@ for x in range(limit):
         highstd = stdname[x]
     if marks[x] < lowest:
         lowest = marks[x]
-print(highstd, " got the highest marks, ", highest, "\nAverage = ", total/limit, "Lowest = ", lowest)
+print(highstd, " got the highest marks, ", highest, "\nAverage = ", round(total/limit,2), "Lowest = ", lowest)
