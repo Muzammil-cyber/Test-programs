@@ -18,6 +18,15 @@ def init(item):
 
 def find(item):
     pointer = 0
+    while True:
+        if mylist[pointer] == item:
+            print("Item Found")
+            break
+        else:
+            pointer = mylistpointer[pointer]
+    
+    # OR #
+""" pointer = 0
     found = False
     while not found and pointer != -1:
         if mylist[pointer] == item:
@@ -28,3 +37,4 @@ def find(item):
         print("Item Found")
     else:
         print("ERROR 404")
+"""
