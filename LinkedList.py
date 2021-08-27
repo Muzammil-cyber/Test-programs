@@ -24,6 +24,9 @@ def find(item):
             break
         else:
             pointer = mylistpointer[pointer]
+            if pointer == -1:
+                print("ERROR 404")
+                break
     
     # OR #
 """ pointer = 0
